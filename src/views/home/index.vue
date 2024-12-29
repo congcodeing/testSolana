@@ -506,7 +506,7 @@ const stopTransition = () => {
                     :class="['bg-gray-200 w-16 h-8 rounded-md ml-4', transQuery.timeType === 2 && 'bg-blue-800 text-white']"
                     @click="transQuery.timeType = 2"
                   >
-                    随机
+                    随机 
                   </button>
                 </div>
                 <input
